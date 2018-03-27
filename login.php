@@ -10,7 +10,7 @@ if (isset($_POST["login"])) {
     $unerror = $perror = "";
     $uname = trim($_POST["username"]);
     if (empty($uname)) {
-        $unerror = "Please Enter Username.";
+        $unerror = "Please Enter Email Id.";
     }
     $pass = $_POST["password"];
     if (empty($pass)) {
