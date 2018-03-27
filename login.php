@@ -65,6 +65,8 @@ if (isset($_POST["login"])) {
         }</style>
 </head>
 <body>
+
+<h1>Welcome!!! Please login here...</h1>
 <div class="container">
     <div style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 ">
         <div class="panel panel-info">
